@@ -3,5 +3,8 @@ public class Main {
         int arr[] = {2,5,4,6,3,8};
         SelectionSort object1 = new SelectionSort();
         object1.selectionsort(arr);
+        System.out.println();
+        BubbleSort obj2 = new BubbleSort();
+        obj2.bubblesort(arr);
     }
 }
